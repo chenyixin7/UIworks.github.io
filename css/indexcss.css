@@ -72,17 +72,14 @@
     width:200px;
     height:auto;
     float: left;
-    margin-right: 150px;
+    margin-right: 100px;
     margin-bottom: 10px;
 
 
 
 }
 
-    /*.pic2{background-image: url("../image/work1.jpg")}
-    .pic1{background-image: url("../image/work1-0.jpg")}
-    .pic3{background-image: url("../image/work1.png"); padding-top: 10px}
-    .pic0{background-image: url("../image/work0.jpg" )}*/
+
 
 
 
@@ -94,8 +91,8 @@
     font-family: "微软雅黑";
     font-size: 15px;
 
-    /*word-wrap: break-word;
-    word-break: break-all;*/
+
+
 }
 
 
@@ -118,12 +115,27 @@
 
 
 
-@media screen and (max-width: 350px){
-
+@media screen and (max-width: 400px){
+    .works{
+        width:90%;
+        height: auto;
+        margin: 0 auto;
+    }
     .box{
         width: 100%;
         height:auto;
         margin-bottom: 100px;
+    .info{
+        height:auto;
+        width:100%;
+        float: left;
+        color: #696969;
+        font-family: "微软雅黑";
+        font-size: 15px;
+
+
+
+    }
 
     }
     .avatar{
